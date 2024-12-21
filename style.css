@@ -1,0 +1,97 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-img{
+    width: 80px;
+    border-radius: 100%;
+}
+.nav-child{
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.header-button{
+    color: #ffffff;
+    padding: 12px 24px;
+    background-color: orange;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border-color: transparent;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+body{
+    background-color: #ffffff;
+}
+.hero-h1{
+    font-size: 68px;
+    color: #FFA500;
+    text-transform: uppercase;
+    line-break: 30px;
+    
+}
+.hero-section{
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-button{
+    padding: 15px 30px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #15fc15;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 16px;
+}
+body{
+    background-image: url(./pexels-veeterzy-303383.jpg);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.right-img{
+    width: 450px;
+    border-radius: 30px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.header-button:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+.nav-child:hover{
+    color: aquamarine;
+}
+.hero-h1:hover{
+    color: aquamarine;
+}
+.hero-button:hover{
+    background-color: #FFA500;
+    color: #15fc15;
+}
+.right-img:hover{
+    transform: scale(1.1);
+}
